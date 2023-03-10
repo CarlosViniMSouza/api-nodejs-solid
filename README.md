@@ -1,32 +1,17 @@
-# App
+# Guia da Aplicação
 
-GymPass style app.
+## ✅ 1 - Estrutura do Projeto
 
-## RFs (Requisitos funcionais)
+## 📑 2 - Integração com Prisma ORM
 
-- [] Deve ser possível se cadastrar;
-- [] Deve ser possível se autenticar;
-- [] Deve ser possível obter o perfil de um usuário logado;
-- [] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
-- [] Deve ser possível o usuário obter o seu histórico de check-ins;
-- [] Deve ser possível o usuário buscar academias próximas (até 10km);
-- [] Deve ser possível o usuário buscar academias pelo nome;
-- [] Deve ser possível o usuário realizar check-in em uma academia;
-- [] Deve ser possível validar o check-in de um usuário;
-- [] Deve ser possível cadastrar uma academia;
+## 📑 3 - Caso de Uso e Design Patterns
 
-## RNs (Regras de negócio)
+## 📑 4 - Design Patterns & Testes
 
-- [] O usuário não deve poder se cadastrar com um e-mail duplicado;
-- [] O usuário não pode fazer 2 check-ins no mesmo dia;
-- [] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
-- [] O check-in só pode ser validado até 20 minutos após ser criado;
-- [] O check-in só pode ser validado por administradores;
-- [] A academia só pode ser cadastrada por administradores;
+## 📑 5 - Implementando casos de uso
 
-## RNFs (Requisitos não-funcionais)
+## 📑 6 - Controllers & Testes E2E
 
-- [] A senha do usuário precisa estar criptografada;
-- [] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
-- [] Todas listas de dados precisam estar paginadas com 20 itens por página;
-- [] O usuário deve ser identificado por um JWT (JSON Web Token);
+## 📑 7 - Refresh Token & RBAC
+
+## 📑 8 - CI/CD da Aplicação
