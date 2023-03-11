@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Estado Atual: Fundamentos do Prisma ORM"
+git commit -m "Estado Atual: PostgreSQL com Docker"
 git push -u origin main
 git status
