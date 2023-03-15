@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Estado Atual: Caso de uso de registro"
+git commit -m "Estado Atual: Repository Pattern"
 git push -u origin main
 git status
