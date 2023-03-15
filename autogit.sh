@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Estado Atual: Handler de erros globais"
+git commit -m "Estado Atual: Configurando Vitest"
 git push -u origin main
 git status
