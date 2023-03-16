@@ -47,7 +47,7 @@ describe('Register Use Case Tests', () => {
             password: '123fgh#%$'
         }),
 
-        expect(() =>
+        await expect(() =>
             registerUseCase.execute({
                 name: 'Carlos Souza',
                 email,
