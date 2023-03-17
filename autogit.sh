@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Estado Atual: Caso de uso de autenticação"
+git commit -m "Estado Atual: Testes e controller de autenticação"
 git push -u origin main
 git status
