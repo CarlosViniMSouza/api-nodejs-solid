@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Estado Atual: Caso de uso de check-in"
+git commit -m "Estado Atual: Refazer projeto"
 git push -u origin main
 git status

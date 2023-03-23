@@ -39,7 +39,7 @@
 ```
 
 ```
-📑 4 - Design Patterns & Testes
+✅ 4 - Design Patterns & Testes
 
 1. Configurando Vitest
 2. Primeiro Teste unitário
@@ -48,10 +48,61 @@
 5. Utilizando UI do Vitest
 ```
 
-## 📑 5 - Implementando casos de uso
+```
+✅ 5 - Implementando casos de uso
 
-## 📑 6 - Controllers & Testes E2E
+1. Caso de uso de autenticação
+2. Testes e controller de autenticação
+3. Refatorando instâncias nos testes
+4. Utilizando Factory Pattern
+5. Caso de uso de perfil
+6. Caso de uso de check-in
+7. TDD & Mocking
+8. Validando data do check-in
+9. Validando distância do check-in
+10. Caso de uso de criação de academia
+11. Caso de uso de histórico
+12. Caso de uso de métricas
+13. Caso de uso de busca de academia
+14. Caso de uso de academias próximas
+15. Caso de uso de validade de check-in
+16. Validando horário do check-in
+```
 
-## 📑 7 - Refresh Token & RBAC
+```
+📑 6 - Controllers & Testes E2E
 
-## 📑 8 - CI/CD da Aplicação
+1. Repositórios do Prisma
+2. Repositórios de academias
+3. Factories dos casos de uso
+4. Princípios de autenticação JWT
+5. Implementando JWT no Fastify
+6. Controller de Perfil
+7. Criando test environment 
+8. Organizando NPM scripts
+9. Test environment do Prisma
+10. Teste E2E do registro
+11. Teste E2E da autenticação
+12. Teste E2E de perfil
+13. Controller de criação de academia
+14. Outros controllers da academia
+15. Controllers das rotas de check-ins
+16. Teste E2E de rotas de academias
+17. Teste E2E de rotas de check-ins
+```
+
+```
+📑 7 - Refresh Token & RBAC
+
+1. Estratégia de refresh de token
+2. Implementação do refresh token
+3. Autorização por cargos (RBAC)
+4. Testes de RBAC
+```
+
+```
+📑 8 - CI/CD da Aplicação
+
+1. Executando testes unitários no CI
+2. Executando testes E2E no CI
+```

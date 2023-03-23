@@ -1,20 +1,18 @@
-import 'dotenv/config';
-import { z } from 'zod';
+import 'dotenv/config'
+import { z } from 'zod'
 
 const envSchema = z.object({
-    NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
-    PORT: z.coerce.number().default(3030),
-});
+  NODE_ENV: z.enum(['dev', 'test', 'production']).default('dev'),
+  JWT_SECRET: z.string(),
+  PORT: z.coerce.number().default(3333),
+})
 
-const envValidationSchema = envSchema.safeParse(process.env);
+const _env = envSchema.safeParse(process.env)
 
-if (envValidationSchema.success === false) {
-    console.error(
-        '❓ Validation Error!',
-        envValidationSchema.error.format()
-    );
+if (_env.success === false) {
+  console.error('❌ Invalid environment variables', _env.error.format())
 
-    throw new Error('❓ Validation Error!');
+  throw new Error('Invalid environment variables.')
 }
 
-export const env = envValidationSchema.data;
+export const env = _env.data
